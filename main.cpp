@@ -5,7 +5,6 @@ const int WIDTH = 800,HEIGHT = 600;
 
 int main(int argc,char *argv[])
 {
-
     SDL_Init(SDL_INIT_EVERYTHING);
 
     SDL_Window *window = SDL_CreateWindow("Hello SDL World",
@@ -37,6 +36,8 @@ int main(int argc,char *argv[])
 
     SDL_DestroyWindow(window);
     SDL_Quit();
+
+    SDL_free(window);
 
     return EXIT_SUCCESS;
 }
