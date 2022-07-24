@@ -17,9 +17,9 @@ class Drawing {
 
     private:
 
-    SDL_Window *d_window;
-    SDL_Renderer *d_renderer;
-    SDL_Texture *d_texture;
+    SDL_Window *m_window;
+    SDL_Renderer *m_renderer;
+    SDL_Texture *m_texture;
 
 };
 
