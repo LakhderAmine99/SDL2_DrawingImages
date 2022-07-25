@@ -22,7 +22,6 @@ int main(int argc,char *argv[])
 
     SDL_Event windowEvent;
 
-
     while (true)
     {
         if(SDL_PollEvent(&windowEvent))
